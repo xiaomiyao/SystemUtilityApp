@@ -12,7 +12,7 @@ while (true)
     {
         case "1": CpuMonitor.Run(); break;
         case "2": MemoryMonitor.Run(); break;
-        //case "3": DiscMonitor.Run(); break;
+        case "3": DiscMonitor.Run(); break;
         //case "4": ProcessManager.Run(); break;
         //case "5": FileManager.Run(); break;
         //case "6": FileSearch.Run(); break;
