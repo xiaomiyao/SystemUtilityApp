@@ -15,9 +15,9 @@ while (true)
         case "3": DiscMonitor.Run(); break;
         case "4": ProcessManager.Run(); break;
         case "5": FileManager.Run(); break;
-        //case "6": FileSearch.Run(); break;
-        //case "7": RegistryEditor.Run(); break;
-        //case "8": ServiceManager.Run(); break;
+        case "6": FileSearch.Run(); break;
+        case "7": RegistryEditor.Run(); break;
+        case "8": ServiceManager.Run(); break;
         //case "9": EventViewer.Run(); break;
         case "0":
             Console.WriteLine("Exiting...");
